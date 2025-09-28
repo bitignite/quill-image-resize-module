@@ -1,6 +1,6 @@
 {
   "name": "quill-image-resize-module",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A module for Quill rich text editor to allow images to be resized.",
   "main": "quill-image-resize-module.js",
   "scripts": {
@@ -12,27 +12,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kensnyder/quill-image-resize-module.git"
+    "url": "git+https://github.com/bitignite/quill-image-resize-module.git"
   },
   "keywords": [
     "quill",
     "quilljs",
     "image",
     "resize",
-    "sizer"
+    "sizer",
+    "module",
+    "quill module",
+    "quill custom module"
   ],
-  "author": "@kensnyder",
+  "author": "@msynk",
   "contributors": [
     {
-      "name": "Wikia",
-      "url": "https://github.com/Wikia"
+      "name": "msynk",
+      "url": "https://github.com/msynk"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kensnyder/quill-image-resize-module/issues"
+    "url": "https://github.com/bitignite/quill-image-resize-module/issues"
   },
-  "homepage": "https://github.com/kensnyder/quill-image-resize-module#readme",
+  "homepage": "https://github.com/bitignite/quill-image-resize-module#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
@@ -49,7 +52,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "quill": "^1.2.2",
+    "quill": "^2.0.3",
     "raw-loader": "^0.5.1"
   }
 }
