@@ -17,7 +17,7 @@ If you encounter any issues with newer Quill versions, please open an issue or s
 
 ## Demo
 
-[Plunker](https://plnkr.co/edit/gq708AOrSBOWSlHcFslG?p=preview)
+[Plunker](https://plnkr.co/edit/rISebzlCcPz9VfUJ)
 
 ## Usage
 
