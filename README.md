@@ -5,6 +5,16 @@ A module for Quill rich text editor to allow images to be resized.
 Also see [quill-image-drop-module](https://github.com/kensnyder/quill-image-drop-module),
 a module that enables copy-paste and drag/drop for Quill.
 
+## Updates
+This fork modernizes the original source to ensure full compatibility with the latest versions of the Quill JS library, addressing breaking changes introduced in recent Quill releases. In addition to updating the core logic for new Quill APIs, this fork includes:
+
+- Bug fixes and improved stability for image resizing functionality
+- Enhanced support for ES6 module imports and modern build tools
+- Ongoing maintenance to track upstream Quill changes
+
+If you encounter any issues with newer Quill versions, please open an issue or submit a pull request.
+
+
 ## Demo
 
 [Plunker](https://plnkr.co/edit/gq708AOrSBOWSlHcFslG?p=preview)
