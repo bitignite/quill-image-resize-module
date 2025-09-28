@@ -42,10 +42,10 @@ const quill = new Quill(editor, {
 
 ### Script Tag
 
-Copy image-resize.min.js into your web root or include from node_modules
+Copy quill-image-resize-module.js file (from the root of this repo) into your web app path and add the following code:
 
 ```html
-<script src="/node_modules/quill-image-resize-module/image-resize.min.js"></script>
+<script src="quill-image-resize-module.js"></script>
 ```
 
 ```javascript
@@ -53,7 +53,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             // See optional "config" below
         }
     }
@@ -68,7 +68,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {}
+        imageResize: {}
     }
 });
 ```
@@ -81,7 +81,7 @@ const quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             modules: [ 'Resize', 'DisplaySize', 'Toolbar' ]
         }
     }
@@ -101,7 +101,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             // ...
             handleStyles: {
                 backgroundColor: 'black',
@@ -125,7 +125,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             // ...
             displayStyles: {
                 backgroundColor: 'black',
@@ -149,7 +149,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             // ...
             toolbarStyles: {
                 backgroundColor: 'black',
@@ -186,7 +186,7 @@ var quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             modules: [ MyModule, Resize ],
             // ...
         }
